@@ -1,0 +1,100 @@
+
+body{
+  background: linear-gradient(to right,#efefef,white);
+}
+
+.head {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .haed-title{
+    font-family: cursive;
+  } 
+   
+  input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 7px;
+    font-family: cursive;
+  }
+
+  input[type='text'] {
+    width: 200px;
+    font-family: cursive;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  .tag {
+    background-color: red;
+    padding: 10px 0 20px;
+    border-radius: 20px;
+    width: 350px;
+    margin: 20px 10px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 1px 1px 6px 2px lightgrey;
+  }
+  .title {
+    color: white;
+    margin: 0;
+    font-size: 40px;
+  }
+  .subtitle {
+    color: white;
+    margin: 0;
+  }
+  .name {
+    background-color: white;
+    margin: 10px 0;
+    font-size: 60px;
+    height: 90px;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .icon-close{
+      position: absolute;
+      padding: 5px 8px;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+    }
+    .icon-close:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+    }  
+  #add{
+    height:30px;
+    width: 150px;
+    margin-top: 7px;
+    border-radius: 4px;
+    background-color: black;
+   color: aliceblue;
+   font-family: cursive;
+  }
+  #remove{
+    height:30px;
+    width: 100px;
+    margin-top: 7px;
+    border-radius: 4px;
+    background-color: black;
+   color: aliceblue;
+   font-family: cursive;
+  }
+  #remove:hover{
+    background-color: aliceblue;
+   color:black;
+  }
+  #add:hover{
+    background-color: aliceblue;
+   color:black;
+  }
+
